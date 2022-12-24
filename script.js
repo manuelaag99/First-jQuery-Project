@@ -32,7 +32,14 @@ $("#return").click(function() {
 $(document).keypress(function() {
     var press = event.key;
     buttonsAction(press);
+    //buttonsHover(press);
 })
+
+//function buttonsHover(input) {
+    //input.attr("class", )
+//}
+
+
 
 function buttonsAction(input) {
     switch (input) {
@@ -66,5 +73,3 @@ function buttonsAction(input) {
             break;
     }
 }
-
-function clickAction()
