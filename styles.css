@@ -23,11 +23,7 @@ h2 {
 }
 
 h3 {
-    margin: 30px 40px;
-}
-
-h4 {
-
+    margin: 30px 50px;
 }
 
 .text-body {
@@ -39,7 +35,7 @@ h4 {
 }
 
 #sample-space {
-    height: 140px; 
+    height: 120px; 
     display: flex;
     justify-content: space-evenly;
 }
@@ -68,7 +64,7 @@ h4 {
 }
 
 #buttons-section button, .text-body {
-    box-shadow: 3px 3px 10px black;
+    box-shadow: 3px 3px 5px black;
 }
 
 #buttons-section button:hover {

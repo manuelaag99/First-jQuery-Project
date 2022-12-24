@@ -1,6 +1,27 @@
 
 var extraText = "<button>Click here!</button>";
 
+$("#after").click(function() {
+    var click = "a";
+})
+
+$("#before").click(function() {
+    var click = "s";
+})
+
+$("#append").click(function() {
+    var click = "d";
+})
+
+$("#prepend").click(function() {
+    var click = "f";
+})
+
+$("#return").click(function() {
+    var click = "r";
+})
+
+
 
 
 $(document).keypress(function() {
