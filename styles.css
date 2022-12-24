@@ -1,0 +1,82 @@
+body {
+    background: url("https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2017/12/test-html-online.jpg");
+    font-family: 'Dosis', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h4 {
+    text-align: center;
+}
+
+h1 {
+    padding: 15px;
+    font-size: 50px;
+    font-family: 'Passion One', cursive;
+    font-weight: lighter;
+    padding-top: 40px;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'Anonymous Pro', monospace;
+}
+
+h3 {
+    margin: 30px 40px;
+}
+
+h4 {
+
+}
+
+.text-body {
+    width: 80%;
+    margin-left: 10%;
+    height: 90vh;
+    border-radius: 25px;
+    background-color: #fff;
+}
+
+#sample-space {
+    height: 140px; 
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.samples {
+    width: 30%;
+    margin: auto 0;
+}
+
+#buttons-section {
+    width: 86%;
+    margin-left: 7%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+#buttons-section button {
+    width: 24%;
+    height: 38px;
+    margin: 20px;
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#buttons-section button, .text-body {
+    box-shadow: 3px 3px 10px black;
+}
+
+#buttons-section button:hover {
+    background-color: #ffd;
+}
+
+@media (max-width: 1000px) and (min-width: 200px) {
+    h1 {
+        font-size: 28px;
+    }
+}

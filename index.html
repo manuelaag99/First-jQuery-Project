@@ -1,12 +1,34 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content-width="width=device-width; initial-scale=1.0">
         <link rel="stylesheet" href="styles.css">
         <title></title>
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Passion+One&display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Passion+One&display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap" rel="stylesheet">
     </head>
     <body>
+        <div class="text-body">
+            <h1>jQuery: "after", "before", "append", and "prepend"</h1>
+            <h3>As you know, when using jQuery, you can add code around existing code, by using "after", "before", "append", and "prepend", but some forget what each one actually does. This website helps to illustrate it, in case you need to remember. Let's suppose you want to add a "button" tag with the text "Click here!". </h3>
+            <div id="sample-space">
+                <div class="samples left">
+                    <h4>Sample text</h4>
+                </div>
+                <div class="samples right">
+                    <h2>Sample text</h2>
+                </div>
+            </div>
+            <div id="buttons-section">
+                <button id="after">"after" (or click "a")</button>
+                <button id="before">"before" (or click "s")</button>
+                <button id="append">"append" (or click "d")</button>
+                <button id="prepend">"prepend" (or click "f")</button>
+                <button id="return">Return to original</button>
+            </div>
+        </div>
         
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <script src="script.js"></script>
     </body>
 </html>
