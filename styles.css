@@ -14,7 +14,6 @@ h1 {
     font-size: 50px;
     font-family: 'Passion One', cursive;
     font-weight: lighter;
-    
     padding: 40px 40px 0;
 }
 
@@ -73,5 +72,13 @@ h3 {
 @media (max-width: 1000px) and (min-width: 200px) {
     h1 {
         font-size: 28px;
+    }
+
+    #sample-space {
+        height: 150px;
+    }
+
+    #buttons-section button {
+        font-size: 14px;
     }
 }
