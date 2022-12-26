@@ -14,7 +14,8 @@ h1 {
     font-size: 50px;
     font-family: 'Passion One', cursive;
     font-weight: lighter;
-    padding-top: 40px;
+    
+    padding: 40px 40px 0;
 }
 
 h2 {
@@ -23,15 +24,16 @@ h2 {
 }
 
 h3 {
-    margin: 30px 50px;
+    margin: 10px 50px;
 }
 
 .text-body {
     width: 80%;
     margin-left: 10%;
-    height: 90vh;
+    box-sizing: content-box;
     border-radius: 25px;
     background-color: #fff;
+    margin-bottom: 50px;
 }
 
 #sample-space {
@@ -51,7 +53,8 @@ h3 {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin-top: 20px;
+    margin-top: 10px;
+    padding-bottom: 20px;
 }
 
 #buttons-section button {
@@ -65,10 +68,6 @@ h3 {
 
 #buttons-section button, .text-body {
     box-shadow: 3px 3px 5px black;
-}
-
-#buttons-section button:hover {
-    background-color: #ffd;
 }
 
 @media (max-width: 1000px) and (min-width: 200px) {
